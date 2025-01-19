@@ -28,7 +28,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/thevimlesh/faulty-calculator.git
+git clone https://github.com/thevimlesh/FaultyCalculator
 Open the index.html file in any modern web browser.
 Start using the Faulty Calculator and enjoy the challenge!
 
