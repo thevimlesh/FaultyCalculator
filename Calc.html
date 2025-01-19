@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Faulty Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <h1> Faulty Calculator</h1>
+        <h3><i> Made for intelligent people who don't need calc</i></h3>
+    </div>
+    
+    <div class="content">
+        <label for="num1">Enter First Number:</label>
+        <input type="number" id="num1" placeholder="First number"><br><br>
+
+        <label for="num2">Enter Second Number:</label>
+        <input type="number" id="num2" placeholder="Second number"><br><br>
+
+        <label for="operation">Choose an Operation:</label>
+        <select id="operation">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select><br><br>
+
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
